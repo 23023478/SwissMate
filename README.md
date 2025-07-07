@@ -33,9 +33,9 @@ SwissMate is an elegant, AI-powered Swiss travel planning web application featur
 1. **Clone or download** the project files
 2. **Start a local server**:
    ```bash
-   python -m http.server 8000
+   python -m http.server 8002
    ```
-3. **Open your browser** to `http://localhost:8000`
+3. **Open your browser** to `http://localhost:8002/`
 4. **Explore Switzerland** with SwissMate!
 
 ## 📁 Project Structure
