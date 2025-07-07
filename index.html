@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwissMate - Your Swiss Travel Companion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Banner -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Discover Switzerland</h1>
+                    <p class="hero-subtitle">Your Gateway to Alpine Excellence</p>
+                    <p class="hero-description">Experience the majestic beauty of Switzerland with our premium travel companion. From snow-capped peaks to pristine lakes, create unforgettable memories in the heart of Europe.</p>
+                    <div class="hero-features">
+                        <div class="feature-highlight">
+                            <i class="fas fa-mountain"></i>
+                            <span>48 Alpine Peaks</span>
+                        </div>
+                        <div class="feature-highlight">
+                            <i class="fas fa-train"></i>
+                            <span>Scenic Railways</span>
+                        </div>
+                        <div class="feature-highlight">
+                            <i class="fas fa-star"></i>
+                            <span>Luxury Experiences</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <button class="hero-btn primary" onclick="scrollToChat()">
+                            <i class="fas fa-comments"></i>
+                            Start Planning
+                        </button>
+                        <button class="hero-btn secondary" onclick="scrollToDestinations()">
+                            <i class="fas fa-map-marked-alt"></i>
+                            Explore Destinations
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visuals">
+                    <div class="hero-image-container">
+                        <div class="hero-image zermatt">
+                            <div class="image-overlay"></div>
+                            <div class="image-label">
+                                <i class="fas fa-mountain"></i>
+                                <span>Zermatt & Matterhorn</span>
+                            </div>
+                        </div>
+                        <div class="hero-image zurich">
+                            <div class="image-overlay"></div>
+                            <div class="image-label">
+                                <i class="fas fa-city"></i>
+                                <span>Zürich</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-icons">
+                        <div class="floating-icon icon-1">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <div class="floating-icon icon-2">
+                            <i class="fas fa-cheese"></i>
+                        </div>
+                        <div class="floating-icon icon-3">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header-bg-pattern"></div>
+            <div class="swiss-badge">
+                <div class="badge-flag">
+                    <div class="cross-horizontal"></div>
+                    <div class="cross-vertical"></div>
+                </div>
+                <span class="badge-text">Swiss Made</span>
+            </div>
+            <div class="logo-container">
+                <div class="logo-circle">
+                    <i class="fas fa-mountain"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>SwissMate</h1>
+                    <span class="swiss-greeting">Grüezi! Your AI Travel Companion</span>
+                </div>
+            </div>
+            <div class="header-features">
+                <div class="feature-badge">
+                    <i class="fas fa-award"></i>
+                    <span>Premium Experience</span>
+                </div>
+                <div class="feature-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>AI Powered</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Swiss Heritage Section -->
+            <section class="swiss-heritage">
+                <div class="heritage-header">
+                    <h2><i class="fas fa-heart"></i> Experience Swiss Excellence</h2>
+                    <p>Discover the timeless beauty and precision of Switzerland</p>
+                </div>
+                <div class="heritage-grid">
+                    <div class="heritage-card mountains-card">
+                        <div class="card-backdrop"></div>
+                        <div class="card-content">
+                            <div class="card-icon-modern">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <h3>Alpine Majesty</h3>
+                            <p>Explore the breathtaking Swiss Alps, featuring the legendary Matterhorn, pristine glaciers, and over 1,500 crystal-clear lakes</p>
+                            <div class="card-highlight">4,000m+ peaks</div>
+                        </div>
+                    </div>
+                    <div class="heritage-card railways-card">
+                        <div class="card-backdrop"></div>
+                        <div class="card-content">
+                            <div class="card-icon-modern">
+                                <i class="fas fa-train"></i>
+                            </div>
+                            <h3>Scenic Journeys</h3>
+                            <p>Travel on the world's most spectacular railways - Glacier Express, Bernina Express, and Golden Pass Line</p>
+                            <div class="card-highlight">UNESCO Heritage</div>
+                        </div>
+                    </div>
+                    <div class="heritage-card cuisine-card">
+                        <div class="card-backdrop"></div>
+                        <div class="card-content">
+                            <div class="card-icon-modern">
+                                <i class="fas fa-cheese"></i>
+                            </div>
+                            <h3>Culinary Traditions</h3>
+                            <p>Savor authentic Swiss cuisine - from traditional fondue and raclette to world-renowned Swiss chocolate</p>
+                            <div class="card-highlight">400+ cheese varieties</div>
+                        </div>
+                    </div>
+                    <div class="heritage-card precision-card">
+                        <div class="card-backdrop"></div>
+                        <div class="card-content">
+                            <div class="card-icon-modern">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3>Swiss Excellence</h3>
+                            <p>Experience legendary Swiss precision in luxury watches, quality craftsmanship, and impeccable service</p>
+                            <div class="card-highlight">Swiss Made®</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Unified AI Chat Experience -->
+            <section id="chat-section" class="chat-experience">
+                <div class="chat-hero">
+                    <div class="chat-hero-content">
+                        <h2><i class="fas fa-brain"></i> SwissMate AI Assistant</h2>
+                        <p>Your intelligent Swiss travel companion powered by advanced AI and deep local expertise</p>
+                        <div class="chat-status-bar">
+                            <div class="status-indicator">
+                                <i class="fas fa-circle" style="color: #00ff00; font-size: 8px; margin-right: 5px;"></i>
+                                <span>AI Online</span>
+                            </div>
+                            <div class="chat-capabilities">
+                                <span class="capability-tag">🧠 AI-Powered</span>
+                                <span class="capability-tag">🏔️ Swiss Expert</span>
+                                <span class="capability-tag">✨ 24/7 Available</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-hero-visual">
+                        <div class="ai-pulse"></div>
+                        <i class="fas fa-robot"></i>
+                    </div>
+                </div>
+                <div class="chat-interface">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <div class="message-avatar">
+                                <div class="avatar-glow"></div>
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="message-content">
+                                <p><strong>Grüezi!</strong> I'm SwissMate, your elite Swiss travel concierge powered by advanced AI. Ready to craft your perfect Swiss adventure? 🇨🇭</p>
+                                <p><em>💡 Ask me anything about Switzerland - I combine AI intelligence with deep Swiss travel expertise!</em></p>
+                                <div class="suggestion-grid">
+                                    <button class="suggestion-card" onclick="sendQuickMessage('Best luxury destinations in Switzerland')">
+                                        <div class="suggestion-icon">🏔️</div>
+                                        <span>Premium Destinations</span>
+                                    </button>
+                                    <button class="suggestion-card" onclick="sendQuickMessage('Create a 7-day luxury Swiss itinerary')">
+                                        <div class="suggestion-icon">📅</div>
+                                        <span>Custom Itinerary</span>
+                                    </button>
+                                    <button class="suggestion-card" onclick="sendQuickMessage('Swiss fine dining and culinary experiences')">
+                                        <div class="suggestion-icon">🍽️</div>
+                                        <span>Culinary Excellence</span>
+                                    </button>
+                                    <button class="suggestion-card" onclick="sendQuickMessage('Exclusive Swiss experiences and activities')">
+                                        <div class="suggestion-icon">⭐</div>
+                                        <span>VIP Experiences</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="loading-indicator" id="loadingSpinner" style="display: none;">
+                            <div class="loading-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <span>SwissMate is thinking...</span>
+                        </div>
+                    </div>
+
+                    <div class="chat-input-area">
+                        <div class="input-container">
+                            <input type="text" id="messageInput" placeholder="Ask about Swiss destinations, experiences, or create your perfect itinerary..." />
+                            <button id="sendButton" onclick="sendMessage()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <div class="chat-footer">
+                            <div class="chat-features">
+                                <span class="feature-badge">
+                                    <i class="fas fa-brain"></i>
+                                    AI-Powered Responses
+                                </span>
+                                <span class="feature-badge">
+                                    <i class="fas fa-language"></i>
+                                    Multilingual Support
+                                </span>
+                                <span class="feature-badge">
+                                    <i class="fas fa-clock"></i>
+                                    Instant Answers
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Premium Destinations -->
+            <section id="destinations-section" class="premium-destinations">
+                <div class="section-header">
+                    <h2><i class="fas fa-crown"></i> Swiss Premium Destinations</h2>
+                    <p>Discover Switzerland's most exclusive and breathtaking locations</p>
+                </div>
+                <div class="destinations-showcase">
+                    <div class="destination-premium">
+                        <div class="destination-visual">
+                            <div class="visual-overlay"></div>
+                            <div class="visual-content">
+                                <i class="fas fa-mountain"></i>
+                                <div class="elevation-badge">4,478m</div>
+                            </div>
+                        </div>
+                        <div class="destination-details">
+                            <h3>Zermatt & Matterhorn</h3>
+                            <p>The crown jewel of the Swiss Alps, featuring the iconic pyramid-shaped Matterhorn and world-class alpine experiences.</p>
+                            <div class="experience-tags">
+                                <span class="tag luxury">⭐ Luxury Resorts</span>
+                                <span class="tag adventure">⛷️ Alpine Sports</span>
+                                <span class="tag scenic">🚠 Scenic Railways</span>
+                            </div>
+                            <button class="premium-btn" onclick="sendQuickMessage('Plan a luxury trip to Zermatt and Matterhorn')">
+                                <i class="fas fa-concierge-bell"></i> Plan My Visit
+                            </button>
+                        </div>
+                    </div>
+                    <div class="destination-premium">
+                        <div class="destination-visual">
+                            <div class="visual-overlay"></div>
+                            <div class="visual-content">
+                                <i class="fas fa-water"></i>
+                                <div class="elevation-badge">Lake Views</div>
+                            </div>
+                        </div>
+                        <div class="destination-details">
+                            <h3>Interlaken Adventure</h3>
+                            <p>Switzerland's adventure capital nestled between pristine lakes, offering thrilling activities and stunning panoramic views.</p>
+                            <div class="experience-tags">
+                                <span class="tag adventure">🪂 Paragliding</span>
+                                <span class="tag nature">🚢 Lake Cruises</span>
+                                <span class="tag premium">🏨 Boutique Hotels</span>
+                            </div>
+                            <button class="premium-btn" onclick="sendQuickMessage('Best adventure experiences in Interlaken')">
+                                <i class="fas fa-concierge-bell"></i> Plan My Visit
+                            </button>
+                        </div>
+                    </div>
+                    <div class="destination-premium">
+                        <div class="destination-visual">
+                            <div class="visual-overlay"></div>
+                            <div class="visual-content">
+                                <i class="fas fa-city"></i>
+                                <div class="elevation-badge">Metropolitan</div>
+                            </div>
+                        </div>
+                        <div class="destination-details">
+                            <h3>Zürich Sophistication</h3>
+                            <p>Switzerland's financial capital blending cosmopolitan luxury with old-world charm, featuring world-class shopping and dining.</p>
+                            <div class="experience-tags">
+                                <span class="tag luxury">🛍️ Luxury Shopping</span>
+                                <span class="tag culture">🎨 Art & Culture</span>
+                                <span class="tag dining">🍽️ Fine Dining</span>
+                            </div>
+                            <button class="premium-btn" onclick="sendQuickMessage('Luxury experiences in Zurich Switzerland')">
+                                <i class="fas fa-concierge-bell"></i> Plan My Visit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-landscape">
+                <div class="landscape-mountains">
+                    <div class="mountain-silhouette m1"></div>
+                    <div class="mountain-silhouette m2"></div>
+                    <div class="mountain-silhouette m3"></div>
+                    <div class="mountain-silhouette m4"></div>
+                </div>
+                <div class="landscape-lakes"></div>
+            </div>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SwissMate</h3>
+                    <p>Premium Swiss Travel Experiences</p>
+                </div>
+                <div class="footer-info">
+                    <div class="swiss-quality">
+                        <div class="quality-badge">
+                            <i class="fas fa-award"></i>
+                            <span>Swiss Quality</span>
+                        </div>
+                        <div class="quality-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>AI Powered</span>
+                        </div>
+                        <div class="quality-badge">
+                            <i class="fas fa-heart"></i>
+                            <span>Made with Love</span>
+                        </div>
+                    </div>
+                    <p>&copy; 2025 SwissMate | Powered by Hugging Face AI</p>
+                    <p class="footer-motto">«Einigkeit macht stark» - Unity makes strength</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

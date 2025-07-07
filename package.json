@@ -1,0 +1,60 @@
+{
+  "name": "swissmate",
+  "version": "1.0.0",
+  "description": "Premium Swiss Travel Companion - AI-powered travel planning app with stunning Swiss-themed design",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "switzerland",
+    "travel",
+    "ai",
+    "chatbot",
+    "tourism",
+    "swiss",
+    "luxury",
+    "alpine",
+    "travel-planner",
+    "hugging-face"
+  ],
+  "author": "SwissMate Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swissmate/swissmate-travel"
+  },
+  "bugs": {
+    "url": "https://github.com/swissmate/swissmate-travel/issues"
+  },
+  "homepage": "https://swissmate.travel",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "features": {
+    "hero_banner": "Full-screen Swiss-themed hero with interactive elements",
+    "ai_chat": "Intelligent Swiss travel assistant powered by Hugging Face",
+    "swiss_design": "Authentic Swiss colors and cultural elements",
+    "premium_destinations": "Curated luxury Swiss travel experiences",
+    "responsive": "Mobile-first responsive design",
+    "animations": "Smooth animations and hover effects",
+    "scroll_features": "Smooth scrolling and scroll-to-top functionality"
+  },
+  "meta": {
+    "theme_color": "#DC143C",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "start_url": "/",
+    "scope": "/"
+  }
+}
