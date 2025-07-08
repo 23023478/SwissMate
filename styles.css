@@ -41,7 +41,12 @@ body {
 
 /* Hero Banner Styles */
 .hero-banner {
-    background: linear-gradient(135deg, #DC143C 0%, #B71C1C 100%);
+    background: linear-gradient(135deg, rgba(220, 20, 60, 0.85) 0%, rgba(183, 28, 28, 0.85) 100%),
+                url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
     padding: 100px 0;
     position: relative;
     overflow: hidden;
@@ -223,17 +228,19 @@ body {
 }
 
 .hero-image.zermatt {
-    background: linear-gradient(135deg, #4A90E2, #7B68EE);
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><path d="M0,300 L50,200 L100,150 L150,100 L200,50 L250,100 L300,150 L350,200 L400,300 Z" fill="%23FFFFFF" opacity="0.8"/><path d="M0,300 L80,220 L120,180 L160,140 L200,100 L240,140 L280,180 L320,220 L400,300 Z" fill="%23FFFFFF" opacity="0.6"/></svg>');
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(123, 104, 238, 0.8)), 
+                url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
 }
 
 .hero-image.zurich {
-    background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect x="50" y="220" width="25" height="80" fill="%23FFFFFF" opacity="0.8"/><rect x="100" y="180" width="25" height="120" fill="%23FFFFFF" opacity="0.8"/><rect x="150" y="160" width="25" height="140" fill="%23FFFFFF" opacity="0.8"/><rect x="200" y="140" width="25" height="160" fill="%23FFFFFF" opacity="0.8"/><rect x="250" y="170" width="25" height="130" fill="%23FFFFFF" opacity="0.8"/><rect x="300" y="200" width="25" height="100" fill="%23FFFFFF" opacity="0.8"/><circle cx="200" cy="80" r="20" fill="%23FFFFFF" opacity="0.6"/></svg>');
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.8), rgba(78, 205, 196, 0.8)),
+                url('https://images.unsplash.com/photo-1527668752968-14dc70a27c95?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
 }
 
 .image-overlay {
@@ -438,7 +445,12 @@ body {
 .swiss-heritage {
     margin-bottom: 80px;
     padding: 80px 0;
-    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    background: linear-gradient(135deg, rgba(248, 249, 250, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%),
+                url('https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -582,7 +594,12 @@ body {
 
 /* Chat Experience Section */
 .chat-experience {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    background: 
+        linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(22, 33, 62, 0.95) 100%),
+        url('https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     border-radius: 30px;
     margin: 80px 20px;
     padding: 60px 40px;
@@ -896,7 +913,12 @@ body {
 /* Premium Destinations Section */
 .premium-destinations {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+    background: linear-gradient(135deg, rgba(248, 249, 250, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%),
+                url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
 }
 
 .section-header {
@@ -942,11 +964,48 @@ body {
 
 .destination-visual {
     height: 250px;
-    background: linear-gradient(135deg, #4A90E2, #7B68EE);
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(123, 104, 238, 0.8)),
+                url('https://images.unsplash.com/photo-1530841344095-b2893194affe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Specific destination images */
+.destination-visual.zermatt {
+    background: linear-gradient(135deg, rgba(74, 144, 226, 0.8), rgba(123, 104, 238, 0.8)),
+                url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.destination-visual.interlaken {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.8), rgba(255, 142, 83, 0.8)),
+                url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.destination-visual.zurich {
+    background: linear-gradient(135deg, rgba(38, 166, 154, 0.8), rgba(66, 165, 245, 0.8)),
+                url('https://images.unsplash.com/photo-1527668752968-14dc70a27c95?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.destination-visual.geneva {
+    background: linear-gradient(135deg, rgba(156, 39, 176, 0.8), rgba(103, 58, 183, 0.8)),
+                url('https://images.unsplash.com/photo-1549488344-cbb79403c2a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
 }
 
 .visual-overlay {
@@ -1088,7 +1147,11 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    background: 
+        linear-gradient(135deg, rgba(26, 26, 46, 0.9) 0%, rgba(22, 33, 62, 0.9) 100%),
+        url('https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
     position: relative;
     overflow: hidden;
     padding: 80px 0 40px;
@@ -1430,5 +1493,68 @@ body {
     .loading-indicator {
         padding: 15px;
         font-size: 0.9rem;
+    }
+}
+
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #DC143C, #B71C1C);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    box-shadow: 0 10px 25px rgba(220, 20, 60, 0.3);
+    transition: all 0.4s ease;
+    z-index: 1000;
+    display: none;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.scroll-to-top::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-to-top:hover::before {
+    opacity: 0.3;
+}
+
+.scroll-to-top:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 15px 35px rgba(220, 20, 60, 0.4);
+    background: linear-gradient(45deg, #B71C1C, #DC143C);
+}
+
+.scroll-to-top.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideInRight 0.5s ease;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
