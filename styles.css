@@ -55,6 +55,7 @@ body {
     align-items: center;
 }
 
+
 .hero-banner::before {
     content: '';
     position: absolute;
