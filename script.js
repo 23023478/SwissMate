@@ -9,7 +9,7 @@ class SwissMate {
         // Flowise API configuration
         this.flowiseConfig = {
             chatflowid: "8c03ae2b-beed-49ff-8c39-9d7ff8bf228d",
-            apiHost: "https://iwanttobeletin-myotherspace.hf.space"
+            apiHost: "https://limeutr-flowise.hf.space"
         };
         
         this.init();
